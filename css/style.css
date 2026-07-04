@@ -1,0 +1,178 @@
+/*barra de busqueda
+ANCHURA, ALTURA, ESPACIO HACIA AFUERA
+*/
+#buscador{
+    
+    width: 900px;
+    height: 30px;
+
+    margin: 60px;
+}
+
+/*TARJETAS
+POSICIONAMIENTO, CUADRO*/
+.tarjeta{
+
+    /*activa flexbox*/
+    display: flex;
+
+    /*separa los hijos*/
+    gap: 20px;
+
+    /*centra los hijos verticalmente*/
+    align-items: center;
+
+    /*separa el contenido del borde*/
+    padding: 15px;
+
+    /*dibuja el borde*/
+    border:1px solid black;
+    /*refina las puntas del borde*/
+    border-radius: 10px;
+    /*agrega una sombra a la caja*/
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    
+    /*animacion en el cursor*/
+    cursor: pointer;
+    /*intervalo ed la animacion*/
+    transition: 0.3s;
+
+    /*modifica el tamaño que ocupa la tarjeta en la web*/
+    width: 440px;
+
+    /*tamaño de lados fuera de la tarjeta*/
+    margin: 20px auto;
+
+    /*color de las tarjetas*/
+    background-color: white;
+
+}
+
+.tarjeta:hover{
+
+    transform: scale(1.03);
+
+}
+
+/*CONTENEDOR DE LAS TARJETAS*/
+
+.contenedor-tarjetas{
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+
+    justify-items: center;
+
+    margin-top: 30px;
+
+}
+
+.info-tarjeta{
+
+    text-align: left;
+
+}
+
+.info-tarjeta p{
+
+    margin-bottom: 10px;
+
+    color: gray;
+
+}
+
+.info-tarjeta h2{
+
+    margin: 0;
+
+}
+
+/*Cuerpo entero de la pagina
+TEXTO ALINEADO,
+*/
+body {
+    text-align: center;
+}
+
+/*IMG DE LA TARJETA
+TAMAÑO*/
+img{
+    height: 170px;
+}
+
+.contenedor-filtros button{
+
+    cursor: pointer;
+
+    padding: 6px 12px;
+
+    transition: 0.2s;
+
+}
+
+.contenedor-filtros button:hover{
+
+    background-color: #d9d9d9;
+
+}
+
+.boton-activo{
+
+    background-color: #444;
+
+    color: white;
+
+}
+
+@media (max-width: 1200px){
+
+    .contenedor-tarjetas{
+
+        grid-template-columns: repeat(2,1fr);
+
+    }
+
+}
+
+@media (max-width: 768px){
+
+    #buscador{
+
+        width: 90%;
+
+        margin: 30px 0;
+
+    }
+
+    .contenedor-tarjetas{
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .tarjeta{
+
+        width: 90%;
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+    .info-tarjeta{
+
+        text-align: center;
+
+    }
+
+    img{
+
+        height: 180px;
+
+    }
+
+}

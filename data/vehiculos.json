@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "marca": "Honda",
+        "modelo": "CG Titan 150",
+        "imagen": "img/cgtitan150.webp",
+        "anio": "2016 - Actualidad",
+        "motor": "149 cc",
+        "transmision": "Cadena 428"
+    },
+    {
+        "id": 2,
+        "marca": "Honda",
+        "modelo": "Wave 110 S",
+        "imagen": "img/wave110s.webp",
+        "anio": "2014 - Actualidad",
+        "motor": "109 cc",
+        "transmision": "Cadena 428"
+    },
+    {
+        "id": 3,
+        "marca": "Yamaha",
+        "modelo": "YBR 125 ED",
+        "imagen": "img/ybr125ed.jpg",
+        "anio": "2008 - 2018",
+        "motor": "124 cc",
+        "transmision": "Cadena 428"
+    },
+    {
+        "id": 4,
+        "marca": "Motomel",
+        "modelo": "S2 150",
+        "imagen": "img/s2150.jpg",
+        "anio": "2016 - Actualidad",
+        "motor": "149 cc",
+        "transmision": "Cadena 428"
+    },
+    {
+        "id": 5,
+        "marca": "Bajaj",
+        "modelo": "Ns 200",
+        "imagen": "img/ns200.webp",
+        "anio": "2018 - Actualidad",
+        "motor": "199 cc",
+        "transmision": "Cadena 520"
+    },
+    {
+        "id": 6,
+        "marca": "Gilera",
+        "modelo": "Smash 110",
+        "imagen": "img/smash110.png",
+        "anio": "2004 - Actualidad",
+        "motor": "109 cc",
+        "transmision": "Cadena 428"
+    }
+]

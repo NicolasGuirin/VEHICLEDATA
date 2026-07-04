@@ -1,0 +1,67 @@
+-Nombre del proyecto: VEHICLEDATA (CON POSIBILIDAD A CAMBIO)
+
+Se puede llamar asi porque en el futuro puede contener:
+🏍 Motos
+🚗 Autos
+🚚 Camiones
+🚜 Tractores
+🚤 Lanchas
+
+-Objetivo del proyecto: 
+es una aplicación web que permite consultar información técnica de vehículos mediante fichas organizadas por categorías, facilitando la búsqueda de repuestos y especificaciones.
+
+-La aplicación POR AHORA va a tener:
+Buscador.
+Filtros por marca.
+Tarjetas de vehículos.
+Ficha del vehículo.
+Imagen.
+Año de fabricación (ej: 2004–2010).
+Categorías desplegables.
+Datos leídos desde un JSON.
+Búsqueda en tiempo real.
+SweetAlert2.
+Responsive.
+
+-Ideas futuras(DEMOS):
+Login.
+Usuarios.
+Base de datos.
+Registro.
+Panel administrador.
+Carrito.
+Compra.
+Comentarios.
+API.
+Firebase.
+Node.
+
+
+Compatibilidades entre vehículos.
+Agregar autos.
+Agregar camiones.
+Base de datos.
+Usuarios.
+Compartir fichas.
+Exportar PDF.
+Códigos OEM.
+
+Versión 2
+
+- Usuarios registrados.
+
+- Agregar motos.
+
+- Editar motos.
+
+- Subir imágenes.
+
+- Valorar información.
+
+- Historial de cambios.
+
+- Compatibilidad entre repuestos.
+
+- Exportar fichas en PDF.
+
+- Aplicación móvil.
